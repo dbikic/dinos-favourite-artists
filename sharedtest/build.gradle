@@ -1,0 +1,10 @@
+apply from: "$rootDir/buildconfig/android_common.gradle"
+
+dependencies {
+    api deps.rx.rxjava
+    api deps.rx.rxandroid
+
+    api deps.tests.junit
+    api deps.tests.mockito
+    api deps.tests.mockito_kotlin
+}

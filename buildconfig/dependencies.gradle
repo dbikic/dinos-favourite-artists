@@ -1,0 +1,61 @@
+def versions = [:]
+
+versions.compose = "1.1.1"
+versions.retrofit = "2.7.1"
+versions.okhttp = "4.3.1"
+versions.room = "2.4.2"
+versions.hilt = "2.42"
+
+def kotlin = [:]
+kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+kotlin.serialization_runtime = "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0"
+
+def room = [:]
+room.runtime = "androidx.room:room-runtime:$versions.room"
+room.compiler = "androidx.room:room-compiler:$versions.room"
+room.rx_java = "androidx.room:room-rxjava2:$versions.room"
+
+def compose = [:]
+compose.ui = "androidx.compose.ui:ui:$versions.compose"
+compose.material = "androidx.compose.material:material:$versions.compose"
+compose.tooling_preview = "androidx.compose.ui:ui-tooling-preview:$versions.compose"
+compose.activity = "androidx.activity:activity-compose:1.4.0"
+compose.navigation = "androidx.navigation:navigation-compose:2.4.2"
+compose.swipe_to_refresh = "com.google.accompanist:accompanist-swiperefresh:0.23.1"
+compose.coil = "io.coil-kt:coil-compose:2.1.0"
+
+def retrofit2 = [:]
+retrofit2.converter_gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+retrofit2.converter_scalars = "com.squareup.retrofit2:converter-scalars:$versions.retrofit"
+retrofit2.retrofit = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+retrofit2.retrofit_rx_adapter = "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit"
+
+def rx = [:]
+rx.rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
+rx.rxjava = "io.reactivex.rxjava2:rxjava:2.2.16"
+rx.kotlin = "io.reactivex.rxjava2:rxkotlin:2.4.0"
+
+def hilt = [:]
+hilt.android = "com.google.dagger:hilt-android:$versions.hilt"
+hilt.compiler = "com.google.dagger:hilt-android-compiler:$versions.hilt"
+hilt.compose_navigation = "androidx.hilt:hilt-navigation-compose:1.0.0"
+
+def tests = [:]
+tests.junit = "junit:junit:4.12"
+tests.mockito = "org.mockito:mockito-core:3.11.2"
+tests.mockito_kotlin = "org.mockito.kotlin:mockito-kotlin:3.2.0"
+
+ext.deps = [:]
+ext.deps.gson = "com.google.code.gson:gson:2.8.5"
+ext.deps.okhttp = "com.squareup.okhttp3:okhttp:$versions.okhttp"
+ext.deps.okhttpLogger = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp"
+ext.deps.three_ten_abp = "com.jakewharton.threetenabp:threetenabp:1.2.2"
+ext.deps.timber = "com.jakewharton.timber:timber:4.7.0"
+ext.deps.arch_extensions = "androidx.lifecycle:lifecycle-extensions:2.2.0"
+ext.deps.compose = compose
+ext.deps.retrofit2 = retrofit2
+ext.deps.kotlin = kotlin
+ext.deps.room = room
+ext.deps.tests = tests
+ext.deps.rx = rx
+ext.deps.hilt = hilt

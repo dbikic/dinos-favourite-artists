@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.DinosFavouriteAlbums" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
+
+<!--  curl "https://api.discogs.com/artists/468856/releases?sort=year&sort_order=asc&key=xdAIOBXUYfPaEcxdfYFh&secret=CFleHAFcfTZBBesvxTZrPEEOsaOOjDST"-->
+
+<!--  curl https://api.discogs.com/artists/187919-->

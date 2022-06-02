@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dinos-favourite-artists.iml" filepath="$PROJECT_DIR$/.idea/modules/dinos-favourite-artists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/dinos-favourite-artists.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/dinos-favourite-artists.core.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/dinos-favourite-artists.data.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/dinos-favourite-artists.domain.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/sharedtest/dinos-favourite-artists.sharedtest.unitTest.iml" />
+    </modules>
+  </component>
+</project>

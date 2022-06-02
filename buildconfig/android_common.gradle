@@ -1,0 +1,51 @@
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-parcelize"
+apply plugin: "kotlin-kapt"
+
+android {
+    compileSdkVersion target_sdk
+
+    defaultConfig {
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "String", "DISCOGS_API_KEY", localProperties["DiscosApiKey"]
+        buildConfigField "String", "DISCOGS_API_SECRET", localProperties["DiscosApiSecret"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/java'
+        test.java.srcDirs += 'src/test/java'
+        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
+        test {
+            resources.srcDirs += files("$projectDir/src/test/resources".toString())
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+def getLocalProperties() {
+    Properties props = new Properties()
+    if (file('../local.properties').exists()) {
+        props.load(new FileInputStream(file('../local.properties')))
+    }
+    return props
+}
