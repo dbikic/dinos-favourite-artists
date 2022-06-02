@@ -32,9 +32,9 @@ More info about how register a Discogs app can be found [here](https://www.disco
 
 Tests are written for logic in each module. Examples:
 
- * App: [ArtistViewModelTest](https://gitlab.com/dino_bikic/dinos-favourites-artists/-/blob/master/app/src/test/java/com/bikotron/dinosfavouriteartists/ui/features/artist/ArtistViewModelTest.kt)
- * Data: [ReleasesRetrofitDataSourceTest](https://gitlab.com/dino_bikic/github-browser/-/blob/master/data/src/test/java/com/bikotron/data/features/releases/network/ReleasesRetrofitDataSourceTest.kt)
- * Domain: [ObserveArtistAndReleasesSortByYearUseCaseTest](https://gitlab.com/dino_bikic/github-browser/-/blob/master/app/src/test/java/com/bikotron/domain/artists/usecases/ObserveArtistAndReleasesSortByYearUseCaseTest.kt)
+ * App: [ArtistViewModelTest](https://github.com/dbikic/dinos-favourite-artists/blob/master/app/src/test/java/com/bikotron/dinosfavouriteartists/ui/features/artist/ArtistViewModelTest.kt)
+ * Data: [ReleasesRetrofitDataSourceTest](https://github.com/dbikic/dinos-favourite-artists/blob/master/data/src/test/java/com/bikotron/data/features/releases/network/ReleasesRetrofitDataSourceTest.kt)
+ * Domain: [ObserveArtistAndReleasesSortByYearUseCaseTest](https://github.com/dbikic/dinos-favourite-artists/blob/master/domain/src/test/java/com/bikotron/domain/artists/usecases/ObserveArtistAndReleasesSortByYearUseCaseTest.kt)
 
 Command to run all tests:
 
